@@ -23,7 +23,7 @@ First we need to create an IntelliJ project in a well-named, easy to locate fold
 6) Ensure "Create Project from Template" is NOT selected.
 7) Set the Project Name to `Lab2`. Set the Project location to `H:\cs201\Lab2` or `[Location on your device]\cs201\Lab2` and click Finish. It will give you a "Directory does not exist" Dialogue. Click Ok to create directory.
 
-## Lab 2 Part 1
+## Lab 2
 
 ### Creating a .java file
 
