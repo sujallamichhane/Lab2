@@ -65,45 +65,7 @@ The fractional part of the distance between point 1 and 2 is: 0.8987394290319681
 
 You can compile and run your program in IntelliJ by selecting `Run > Run` from the header, pressing the green "Play Button" next to the `main` method, or pressing `Shift+F10`.
 
-## Lab 2 Part 2
 
-1) Write click on the `src` folder and navigate to `New`. Click `Java Class`. When prompted for a name, name the class `Lab2_2`.
-2) Inside the `Lab2_2` class, create a `main` method which does the following:
-
-- It should prompt the user for a number of seconds.
-- It should then convert that number of seconds to the amount of weeks, days, hours, minutes, and leftover seconds that is. It does NOT conver the entire amount to each, but the total quantity. For example 3600 seconds is 1 hour so your program should do:
-
-```
-Enter a number of seconds: 3600
-3600 seconds is 0 weeks, 0 days, 1 hours, 0 minutes, and 0 seconds
-```
-
-OR
-
-```
-Enter a number of seconds: 137
-120 seconds is 0 weeks, 0 days, 0 hours, 2 minutes, and 17 seconds
-```
-
-To check whether this is done right note: you should never have more than 59 seconds since that would just give you another minute. 
-
-**Implementation Tips:**
-
-You should have the program prompt the use for a  number of seconds.
-
-You can then create 5 integer variables `weeks, days, hours, minutes, seconds`
-
-You can process the number of minutes using the division operator. Supposing the user input is stored as `enteredSeconds`, the number of minutes is the result of 
-
-```minutes = enteredSeconds / 60;```
-
-Since both are integers, this will return an integer value.
-
-To find the leftover number of seconds after accounting for minutes, you can compute 
-
-```seconds = enteredSeconds - (minutes * 60);```
-
-Fun question: can you explain why this works?
 
 
 
@@ -115,9 +77,9 @@ When you're done, you can upload your files to this Repo and commit the changes.
 
 There are two options:
 
-A) Click "Add Files" to create new Java files in the repo manually. Create new files with name `Lab2_1.java` and `Lab2_2.java` You can re-type or copy paste your code into those files.
+A) Click "Add Files" to create new Java files in the repo manually. Create new files with name `Lab2.java` You can re-type or copy paste your code into that file.
 
-B) Click "Upload Files" to just upload the .java files you already created. Navigate to the `src` folder on your computer and upload `Lab2_1.java` and `Lab2_2.java`.
+B) Click "Upload Files" to just upload the .java files you already created. Navigate to the `src` folder on your computer and upload `Lab2.java.
 
 2) Once you've created the file you want, or uploaded them, navigate to the bottom of the Page and hit "Commit changes". Ensure "Commit directly to the `main` branch." is selected. You'll need to "Commit changes" once for each file you "Create" in GitHub, but can upload multiple files before a single Commit. 
 
