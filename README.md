@@ -56,6 +56,8 @@ Enter the z-coordinate of point 2: 8.4
 The distance between point 1 and point 2 is: 11.898739429031968 
 ```
 
+Note: you can compute square roots by using the `Math.sqrt().`
+
 ### Bonus: Also print the "integer part" of the distance and "fractional part" of the distance:
 
 ```
