@@ -1,5 +1,5 @@
 # CSCI 201 FALL 2022
-Lab 2 Starter Code:
+Week 3 Lab Starter Code:
 
 None!
 
