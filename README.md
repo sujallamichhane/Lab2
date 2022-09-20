@@ -18,9 +18,9 @@ First we need to create an IntelliJ project in a well-named, easy to locate fold
 1) If you're using a Lab Workstation, navigate to the H:\ Drive and create a folder called `cs201`.  If you're using your own device, place a folder called `cs201` wherever you can reliably find it. I recommend `Documents\classes`
 2) Open IntelliJ. On Lab Workstations, this can be done by navigating to the Start Menu and finding IntelliJ in the JetBrain folder. If you are using a Windows machine of your own, the process is the same. If you are using a Mac, you'll need to find IntelliJ in the Apps location.
 3) IntelliJ will open a dialog box the first time you open it. Select "Create a New Project" and click Next. 
-4) You can select the Project SDK, you should choose JDK Version 16.0.2.
+4) You can select the Project SDK, you should choose JDK Version 18.
 5) Ensure both Groovy and Kotlin/JVM are NOT selected.
-6) Ensure "Create Project from Template" is NOT selected.
+6) Ensure "Use sampel code" is NOT selected.
 7) Set the Project Name to `Lab2`. Set the Project location to `H:\cs201\Lab2` or `[Location on your device]\cs201\Lab2` and click Finish. It will give you a "Directory does not exist" Dialogue. Click Ok to create directory.
 
 ## Lab 2 Part 1
