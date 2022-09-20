@@ -74,8 +74,7 @@ You can compile and run your program in IntelliJ by selecting `Run > Run` from t
 
 Your program should:
 - prompt the user for a number of seconds.
-- pass the entered number of seconds to a method called `secondsAnalyzer` which performs the following task: convert that number of seconds to the amount of weeks, days, hours, minutes, and leftover seconds that is. It does NOT convert the entire amount to each, but the total quantity. For example 3600 seconds is 1 hour so your program would display:
-- the secondsAnalyzer method should return the String generated to the main method where it can be printed. 
+- The program should return the String generated to the main method where it can be printed. 
 
 Below are some examples:
 
@@ -97,27 +96,17 @@ Note: you should never have more than 59 seconds since that would just give you 
 
 ***The `main` method:***
 
-The main method should only do 3 things:
-
-1) prompt the use for a  number of seconds, allow them to respond, and store the value as `enteredSeconds.`
-2) pass this value to the `secondsAnalyzer` method which will return a string.
-3) print the string that is returned from `secondsAnalyzer.`
-
-***The `secondsAnalyzer` method:***
-
-In the secondsAnalyzer method you'll pass a single integer parameter, call it `x`. 
-
 You can create 5 integer variables `weeks, days, hours, minutes, seconds`
 
-You can process the number of minutes using the division operator. Since the number of seconds will be known as `x` by the method, the number of minutes is the result of 
+You can process the number of minutes using the division operator. Since the entered number of seconds will be known as `enteredSeconds`, the number of minutes is the result of 
 
-```minutes = x / 60;```
+```minutes = enteredSeconds / 60;```
 
 Since both are integers, this will return an integer value.
 
 To find the leftover number of seconds after accounting for minutes, you can compute 
 
-```seconds = x - (minutes * 60);```
+```seconds = enteredSeconds - (minutes * 60);```
 
 Fun question: can you explain why this works?
 
@@ -126,10 +115,10 @@ Now, you can repeat this process with the number of minutes you have, converting
 Finally, you'll create a string which represents the data as desired: 
 
 ```java
-x seconds is [weeks] weeks, [days] days, [hours] hours, [0] minutes, and [1] seconds
+[x] seconds is [weeks] weeks, [days] days, [hours] hours, [0] minutes, and [1] seconds
 ```
 
-The `secondsAnalyzer` method should return that string to the `main` method where it can be printed.
+Then you can print that string.
 
 Hint: If you're struggling with the math portion of this, just try converting to minutes and left over seconds first. Once that works reliably, shoot for hours. Once that works, work on days, etc. One step at a time making sure everything works as desired. 
 
