@@ -28,7 +28,7 @@ First we need to create an IntelliJ project in a well-named, easy to locate fold
 ### Creating a .java file
 
 Program are written in .java files and compiled into .class files.
-1) Click the arrow next to the Lab1 folder in the Project Viewer Pane. This will expand the project folder.
+1) Click the arrow next to the Lab2 folder in the Project Viewer Pane. This will expand the project folder.
 2) Right click on the `src` folder and navigate to `New`. Click `Java Class`. When prompted for a name, name the class `Lab2_1`.
 
 The Text Editor Pane will now contain a page with the following:
