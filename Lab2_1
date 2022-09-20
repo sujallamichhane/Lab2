@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Lab2_1
+{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the first number");
+        double X1 = input.nextDouble();
+        System.out.print("Enter the second number");
+        double Y1 = input.nextDouble();
+        System.out.print("Enter the third number");
+        double Z1 = input.nextDouble();
+        System.out.print("Enter the four number");
+        double X2 = input.nextDouble();
+        System.out.print("Enter the five number");
+        double Y2 = input.nextDouble();
+        System.out.print("Enter the six number");
+        double Z2 = input.nextDouble();
+
+        //square each xyz first
+        double mathPowX = Math. pow ((X1-X2), 2);
+        double mathPowY = Math. pow ((Y1-Y2), 2);
+        double mathPowZ = Math.pow((Z1-Z2),2);
+
+        double distanceBetween1and2 = Math.sqrt(mathPowX+mathPowY+mathPowZ);
+
+        System.out.println("The distance between point 1 and point 2 is: "+distanceBetween1and2);
+        System.out.println();
+
+        System.out.println("The integer part of the distance between point 1 and 2 is: "+ (int) distanceBetween1and2);
+        System.out.println("The fractional part of the distance between point 1 and 2 is: "+ (distanceBetween1and2-(int)distanceBetween1and2));
+
+
+    }
+}
