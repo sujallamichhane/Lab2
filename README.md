@@ -34,7 +34,7 @@ Program are written in .java files and compiled into .class files.
 The Text Editor Pane will now contain a page with the following:
 
 ```
-public class Lab2{
+public class Lab2_1{
 }
 ```
 
