@@ -68,7 +68,7 @@ The fractional part of the distance between point 1 and 2 is: 0.8987394290319681
 You can compile and run your program in IntelliJ by selecting `Run > Run` from the header, pressing the green "Play Button" next to the `main` method, or pressing `Shift+F10`.
 
 
-## Lab 2 Part 2 SUPER CHALLENGE
+## Lab 2 Part 2 SUPER CHALLENGE BONUS (This is not required, but is fun if you finish part 1)
 
 1) Right click on the `src` folder and navigate to `New`. Click `Java Class`. When prompted for a name, name the class `Lab2_2`.
 
@@ -142,9 +142,9 @@ When you're done, you can upload your files to this Repo and commit the changes.
 
 There are two options:
 
-A) Click "Add Files" to create new Java files in the repo manually. Create new files with name `Lab2.java` You can re-type or copy paste your code into that file.
+A) Click "Add Files" to create new Java files in the repo manually. Create new files with name `Lab2_1.java` (and `Lab2_2.java` if you got there)You can re-type or copy paste your code into that file.
 
-B) Click "Upload Files" to just upload the .java files you already created. Navigate to the `src` folder on your computer and upload `Lab2.java.
+B) Click "Upload Files" to just upload the .java files you already created. Navigate to the `src` folder on your computer and upload `Lab2_1.java` (and maybe `Lab2_2.java`). 
 
 2) Once you've created the file you want, or uploaded them, navigate to the bottom of the Page and hit "Commit changes". Ensure "Commit directly to the `main` branch." is selected. You'll need to "Commit changes" once for each file you "Create" in GitHub, but can upload multiple files before a single Commit. 
 
